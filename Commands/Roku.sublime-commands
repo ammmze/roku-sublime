@@ -1,14 +1,27 @@
 [
     {
-    	"caption": "Roku: Install", 
-    	"command": "roku_install" 
+        "caption": "Roku: Package and Install",
+        "command": "roku_package_install"
     },
     {
-    	"caption": "Roku: Replace", 
-    	"command": "roku_replace" 
+        "caption": "Roku: Package",
+        "command": "roku_package"
     },
     {
-    	"caption": "Roku: Package", 
-    	"command": "roku_package" 
+        "caption": "Roku: Install Package",
+        "command": "roku_install"
+    },
+    {
+        "caption": "Roku: Uninstall Package",
+        "command": "roku_uninstall"
+    },
+    {
+        "caption": "Preferences: Roku Settings – Default",
+        "command": "roku_settings"
+    },
+    {
+        "caption": "Preferences: Roku Settings – User",
+        "command": "open_file",
+        "args"   : {"file" : "${packages}/User/roku.sublime-settings"}
     }
 ]

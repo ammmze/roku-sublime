@@ -1,0 +1,79 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "id": "end"
+            },
+            {
+                "caption": "Roku",
+                "children":
+                [
+                    {
+                        "caption": "Package and Install",
+                        "command": "roku_package_install"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "caption": "Package",
+                        "command": "roku_package"
+                    },
+                    {
+                        "caption": "Install Package",
+                        "command": "roku_install"
+                    },
+                    {
+                        "caption": "Uninstall Package",
+                        "command": "roku_uninstall"
+                    },
+                    {
+                        "caption": "-"
+                    },
+                    {
+                        "caption": "Settings - Default",
+                        "command": "roku_settings"
+                    },
+                    {
+                        "caption": "Settings - User",
+                        "command": "open_file",
+                        "args"   : {"file" : "${packages}/User/Roku.sublime-settings"}
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Roku",
+                        "children":
+                        [
+                            {
+                                "caption": "Settings – Default",
+                                "command": "roku_settings"
+                            },
+                            {
+                                "caption": "Settings – User",
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/Roku.sublime-settings"}
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

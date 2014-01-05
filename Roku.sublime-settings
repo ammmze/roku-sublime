@@ -1,0 +1,22 @@
+{
+    // Timeout for when making requests
+    "timeout" : 30,
+
+    // Roku boxes
+    "boxes" : [
+        {
+            // Some friendly name...what ever you want
+            "name" : "Default",
+
+            // IP address of the box
+            "ip"   : "192.168.0.1",
+
+            // Username of the box ... i don't think roku lets you change it
+            "user" : "rokudev",
+
+            // Password of the box ... newer firmware requires password
+            // If you leave it blank, it will prompt you for the password each time you install
+            "pass" : ""
+        }
+    ]
+}
